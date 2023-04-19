@@ -5,6 +5,7 @@ import 'singleWhere.dart';
 import 'any_where.dart';
 import 'where.dart';
 import 'mapping.dart';
+import 'mapping_task.dart';
 
 void main(List<String> arguments) {
   const items = ['Malad', 'Popcora', 'Toast', 'Lasagne'];
@@ -23,5 +24,9 @@ void main(List<String> arguments) {
 
   // Ejercicio: asignación a un tipo diferente - Cuarto Desafio map()
   returnUserMap();
+  print('');
+
+  // Ejercicio: poner todo junto - Quinto Desafio map()
+  returnUserEvaluationAny();
   print('');
 }

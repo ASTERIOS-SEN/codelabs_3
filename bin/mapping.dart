@@ -35,4 +35,5 @@ void returnUserMap() {
   List<User> users = [user1, user2, user3];
 
   print(getNameAndAges(users).toList());
+  
 }
